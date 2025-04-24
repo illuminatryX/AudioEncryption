@@ -107,7 +107,7 @@ def encrypt_audio(input_file, output_file, key):
 
     with wave.open(output_file, 'wb') as f:
         f.setparams(params)
-        f.writeframes(iv + final_encrypted)
+        f.writeframes(final_encrypted)
 
 # === Decryption ===
 def decrypt_audio(input_file, output_file, key):
@@ -115,16 +115,15 @@ def decrypt_audio(input_file, output_file, key):
         params = f.getparams()
         encrypted_audio_data = f.readframes(params.nframes)
 
-    iv = encrypted_audio_data[:16]
-    encrypted_audio_data = encrypted_audio_data[16:]
-
     key_bytes = key.encode()
     if len(key_bytes) != 16:
         raise ValueError("Key must be exactly 16 characters (128 bits) for AES-128.")
     subkeys = key_schedule(key_bytes)
 
     key1 = struct.pack('>4I', *subkeys[0])  # AES key
+    key2 = struct.pack('>4I', *subkeys[1])  # IV
     key3 = struct.pack('>4I', *subkeys[2])  # Cellular Automaton
+    iv = key2
 
     key_binary = convert_key_to_binary_bytes(key3)
     automaton = CellularAutomaton(rule30, key_binary)
