@@ -41,7 +41,7 @@ def analyze_noise(file_path, duration=None):
     return mean_noise
 
 # Example usage
-file_path = "encrypted_2.wav"
+file_path = "2_decrypted.wav"
 mean_noise = analyze_noise(file_path)
 
 print("Mean Noise: for "+file_path+" "+ str(mean_noise))

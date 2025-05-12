@@ -4,9 +4,9 @@ Audio Analysis Results
 Audio: 1
 Original vs Encrypted Correlation: 0.0019
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: -0.0004
-Decrypted Noise Level: -0.0000
+Original Noise Level: -3.937274e-06
+Encrypted Noise Level: -0.0004372565
+Decrypted Noise Level: -3.937274e-06
 Encrypted SNR (dB): -7.43
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4515
@@ -15,9 +15,9 @@ Decrypted RMSE: 0.0000
 Audio: 10
 Original vs Encrypted Correlation: 0.0003
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: -0.0003
-Decrypted Noise Level: -0.0000
+Original Noise Level: -3.0651816e-05
+Encrypted Noise Level: -0.00030243985
+Decrypted Noise Level: -3.0651816e-05
 Encrypted SNR (dB): -11.80
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4222
@@ -26,9 +26,9 @@ Decrypted RMSE: 0.0000
 Audio: 11
 Original vs Encrypted Correlation: -0.0000
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: 0.0007
-Decrypted Noise Level: -0.0000
+Original Noise Level: -8.436258e-06
+Encrypted Noise Level: 0.000739816
+Decrypted Noise Level: -8.436258e-06
 Encrypted SNR (dB): -9.64
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4323
@@ -37,9 +37,9 @@ Decrypted RMSE: 0.0000
 Audio: 12
 Original vs Encrypted Correlation: 0.0001
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: 0.0005
-Decrypted Noise Level: -0.0000
+Original Noise Level: -8.63754e-06
+Encrypted Noise Level: 0.00051328185
+Decrypted Noise Level: -8.63754e-06
 Encrypted SNR (dB): -10.36
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4285
@@ -48,9 +48,9 @@ Decrypted RMSE: 0.0000
 Audio: 2
 Original vs Encrypted Correlation: 0.0005
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: 0.0000
-Encrypted Noise Level: 0.0006
-Decrypted Noise Level: 0.0000
+Original Noise Level: 8.351346e-06
+Encrypted Noise Level: 0.0006048174
+Decrypted Noise Level: 8.351346e-06
 Encrypted SNR (dB): -10.79
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4265
@@ -59,9 +59,9 @@ Decrypted RMSE: 0.0000
 Audio: 3
 Original vs Encrypted Correlation: 0.0023
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: -0.0012
-Decrypted Noise Level: -0.0000
+Original Noise Level: -2.4764004e-05
+Encrypted Noise Level: -0.0011918804
+Decrypted Noise Level: -2.4764004e-05
 Encrypted SNR (dB): -12.44
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4199
@@ -70,9 +70,9 @@ Decrypted RMSE: 0.0000
 Audio: 4
 Original vs Encrypted Correlation: 0.0018
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: 0.0000
-Decrypted Noise Level: -0.0000
+Original Noise Level: -2.2487293e-05
+Encrypted Noise Level: 1.1735776e-05
+Decrypted Noise Level: -2.2487293e-05
 Encrypted SNR (dB): -9.56
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4316
@@ -81,9 +81,9 @@ Decrypted RMSE: 0.0000
 Audio: 5
 Original vs Encrypted Correlation: -0.0002
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: 0.0001
-Decrypted Noise Level: -0.0000
+Original Noise Level: -3.1928798e-06
+Encrypted Noise Level: 5.1333678e-05
+Decrypted Noise Level: -3.1928798e-06
 Encrypted SNR (dB): -9.29
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4346
@@ -92,9 +92,9 @@ Decrypted RMSE: 0.0000
 Audio: 6
 Original vs Encrypted Correlation: -0.0024
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: 0.0000
-Encrypted Noise Level: 0.0011
-Decrypted Noise Level: 0.0000
+Original Noise Level: 7.350419e-06
+Encrypted Noise Level: 0.0011316874
+Decrypted Noise Level: 7.350419e-06
 Encrypted SNR (dB): -7.96
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4457
@@ -103,9 +103,9 @@ Decrypted RMSE: 0.0000
 Audio: 7
 Original vs Encrypted Correlation: 0.0011
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: -0.0002
-Decrypted Noise Level: -0.0000
+Original Noise Level: -1.644859e-05
+Encrypted Noise Level: -0.00017333764
+Decrypted Noise Level: -1.644859e-05
 Encrypted SNR (dB): -9.22
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4354
@@ -114,9 +114,9 @@ Decrypted RMSE: 0.0000
 Audio: 8
 Original vs Encrypted Correlation: 0.0019
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: -0.0007
-Decrypted Noise Level: -0.0000
+Original Noise Level: -1.4661609e-06
+Encrypted Noise Level: -0.00066348136
+Decrypted Noise Level: -1.4661609e-06
 Encrypted SNR (dB): -9.83
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4306
@@ -125,9 +125,9 @@ Decrypted RMSE: 0.0000
 Audio: 9
 Original vs Encrypted Correlation: 0.0011
 Original vs Decrypted Correlation: 1.0000
-Original Noise Level: -0.0000
-Encrypted Noise Level: 0.0006
-Decrypted Noise Level: -0.0000
+Original Noise Level: -1.0019652e-05
+Encrypted Noise Level: 0.00059338904
+Decrypted Noise Level: -1.0019652e-05
 Encrypted SNR (dB): -10.86
 Decrypted SNR (dB): inf
 Encrypted RMSE: 0.4259

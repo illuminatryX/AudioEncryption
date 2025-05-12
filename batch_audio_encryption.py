@@ -161,7 +161,7 @@ def calculate_correlation_coefficient(file1, file2):
 def analyze_noise(file_path, duration=None):
     audio, sr = librosa.load(file_path, sr=None, duration=duration)
     mean_noise = np.mean(audio)
-    return mean_noise
+    return str(mean_noise)
 
 def calculate_snr(original, processed):
     # Calculate Signal-to-Noise Ratio
@@ -250,16 +250,16 @@ def process_audio_files():
         })
     
     # Write results to file
-    with open('Results/correlation_results.txt', 'w') as f:
+    with open('Results/analysis.txt', 'w') as f:
         f.write("Audio Analysis Results\n")
         f.write("=====================\n\n")
         for result in results:
             f.write(f"Audio: {result['audio_name']}\n")
             f.write(f"Original vs Encrypted Correlation: {result['encrypted_correlation']:.4f}\n")
             f.write(f"Original vs Decrypted Correlation: {result['decrypted_correlation']:.4f}\n")
-            f.write(f"Original Noise Level: {result['original_noise']:.4f}\n")
-            f.write(f"Encrypted Noise Level: {result['encrypted_noise']:.4f}\n")
-            f.write(f"Decrypted Noise Level: {result['decrypted_noise']:.4f}\n")
+            f.write(f"Original Noise Level: {result['original_noise']}\n")
+            f.write(f"Encrypted Noise Level: {result['encrypted_noise']}\n")
+            f.write(f"Decrypted Noise Level: {result['decrypted_noise']}\n")
             f.write(f"Encrypted SNR (dB): {result['encrypted_snr']:.2f}\n")
             f.write(f"Decrypted SNR (dB): {result['decrypted_snr']:.2f}\n")
             f.write(f"Encrypted RMSE: {result['encrypted_rmse']:.4f}\n")
